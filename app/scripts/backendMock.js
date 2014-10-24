@@ -44,14 +44,17 @@ function setupBackendMock($httpBackend)
 
     function loremIpsum(sentencesCount)
     {
-        var sentences = ['Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rhoncus quis felis et posuere. ' ,
-                         'Pellentesque volutpat ac mauris quis consectetur. Donec mollis tortor malesuada accumsan pulvinar. ' ,
-                         'Aenean faucibus semper magna. Ut id dictum libero. Etiam viverra diam nec sem pellentesque malesuada. ' ,
-                         'Quisque semper suscipit rutrum. Mauris a mollis purus, sit amet egestas tellus. ' ,
-                         'Nullam vel mauris id metus vestibulum vestibulum non non tortor. Vivamus ut congue sapien, in lobortis orci. ' ,
-                         'Sed iaculis metus eget erat venenatis, id vestibulum massa scelerisque. ' ,
-                         'Phasellus magna mi, vestibulum quis massa in, laoreet dignissim augue. ' ,
-                         'Cras nunc leo, pellentesque sit amet interdum nec, pretium quis magna.'
+        var sentences = [
+                    'Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię stracił. ' +
+                    'Dziś człowieka rodu, obyczajów! Dość, że w cząstce spadły dalekim mieści' +
+                    'kończył nauki, końca doczekał nareszcie. Wbiega i niech mi się nie wiem, czy go myślano do ' +
+                    'usług publicznych sposobił z żoną i z wieczerzą powynosić z boku sąsiadki a bij jak ' +
+                    'naoczne świadki. I też nie daje czasu szukać prawodawstwa w zastępstwie gospodarza, ' +
+                    'w stodołę na on żył, co prędzej w Piramidy, w języku strzelecki dzik, niedźwiedź, ' +
+                    'łoś, wilk zwany był żonaty a Sędziego wolą była i każdego wodza legijonu i jadł. wtem ' +
+                    'z Paryża a starzy i oczy wkoło są rowni. Choć Sędzia tuż na Lombardzkiem polu.' +
+                    ' Jak Kniaziewicz rozkazy i gumiennym pisarzom, ochmistrzyni, strzelcom i Rzeczpospolita! ' +
+                    'Zawżdy z '
         ];
 
         var result = '';
